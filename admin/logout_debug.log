@@ -1,0 +1,80 @@
+2025-06-08 18:35:58 - Logout started
+2025-06-08 18:35:58 - Session before: Array
+(
+    [cart] => Array
+        (
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => admin
+    [admin_id] => 1
+    [admin_name] => Administrator
+)
+
+2025-06-08 18:35:58 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-08 18:35:58 - Redirecting to login page
+2025-06-08 18:36:31 - Logout started
+2025-06-08 18:36:31 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-08 18:36:31 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-08 18:36:31 - Redirecting to login page
+2025-06-08 19:18:19 - Logout started
+2025-06-08 19:18:19 - Session before: Array
+(
+    [cart] => Array
+        (
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-08 19:18:19 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-08 19:18:19 - Redirecting to modern login page
+2025-06-08 21:47:27 - Logout started
+2025-06-08 21:47:27 - Session before: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [name] => Gado-Gado
+                    [price] => 18000.00
+                    [quantity] => 1
+                )
+
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-08 21:47:27 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-08 21:47:27 - Redirecting to login page
