@@ -1,0 +1,39 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect root to public/index.php
+RewriteRule ^$ public/index.php [L]
+
+# Don't apply rules to existing files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Send requests to the appropriate entry point
+RewriteRule ^public/(.*)$ public/index.php?route=$1 [QSA,L]
+
+# Exclude actual PHP files from the admin rewrite rule
+RewriteCond %{REQUEST_URI} !^/TubesYos/admin/(login|register|debug|simple_test|menu_management|force_logout|logout_test|direct_logout|check_login|simple_login)\.php$
+RewriteRule ^admin/(.*)$ admin/index.php?route=$1 [QSA,L]
+
+# PHP settings to display errors
+php_flag display_errors on
+php_value error_reporting E_ALL
+
+# Activate error display
+php_flag display_startup_errors on
+
+# Set default index files
+DirectoryIndex index.php index.html
+
+# Prevent directory listings
+Options -Indexes
+
+# Prevent access to .htaccess
+<Files .htaccess>
+    Require all denied
+</Files>
+
+# Allow access to debug.php file
+#<Files debug.php>
+#    Require all denied
+#</Files>

@@ -1,0 +1,263 @@
+2025-06-08 18:35:58 - Logout started
+2025-06-08 18:35:58 - Session before: Array
+(
+    [cart] => Array
+        (
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => admin
+    [admin_id] => 1
+    [admin_name] => Administrator
+)
+
+2025-06-08 18:35:58 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-08 18:35:58 - Redirecting to login page
+2025-06-08 18:36:31 - Logout started
+2025-06-08 18:36:31 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-08 18:36:31 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-08 18:36:31 - Redirecting to login page
+2025-06-08 19:18:19 - Logout started
+2025-06-08 19:18:19 - Session before: Array
+(
+    [cart] => Array
+        (
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-08 19:18:19 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-08 19:18:19 - Redirecting to modern login page
+2025-06-08 21:47:27 - Logout started
+2025-06-08 21:47:27 - Session before: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [name] => Gado-Gado
+                    [price] => 18000.00
+                    [quantity] => 1
+                )
+
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-08 21:47:27 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-08 21:47:27 - Redirecting to login page
+2025-06-11 09:13:34 - Logout started
+2025-06-11 09:13:34 - Session before: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [name] => Gado-Gado
+                    [price] => 18000.00
+                    [quantity] => 1
+                )
+
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-11 09:13:34 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 09:13:34 - Redirecting to login page
+2025-06-11 09:15:21 - Logout started
+2025-06-11 09:15:21 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-11 09:15:21 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 09:15:21 - Redirecting to login page
+2025-06-11 09:38:59 - Logout started
+2025-06-11 09:38:59 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-11 09:38:59 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 09:38:59 - Redirecting to login page
+2025-06-11 09:39:33 - Logout started
+2025-06-11 09:39:33 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-11 09:39:33 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 09:39:33 - Redirecting to login page
+2025-06-11 09:49:12 - Logout started
+2025-06-11 09:49:12 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-11 09:49:12 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 09:49:12 - Redirecting to login page
+2025-06-11 09:51:45 - Logout started
+2025-06-11 09:51:45 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-11 09:51:45 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 09:51:45 - Redirecting to login page
+2025-06-11 10:37:32 - Logout started
+2025-06-11 10:37:32 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+    [cart] => Array
+        (
+        )
+
+)
+
+2025-06-11 10:37:32 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 10:37:32 - Redirecting to login page
+2025-06-11 16:40:54 - Logout started
+2025-06-11 16:40:54 - Session before: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Asam Manis Cumi-Cumi
+                    [price] => 45000.00
+                    [quantity] => 1
+                )
+
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+    [contact_success] => 1
+)
+
+2025-06-11 16:40:54 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 16:40:54 - Redirecting to login page
+2025-06-11 17:28:00 - Logout started
+2025-06-11 17:28:00 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+    [cart] => Array
+        (
+        )
+
+)
+
+2025-06-11 17:28:00 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 17:28:00 - Redirecting to login page
+2025-06-11 17:29:51 - Logout started
+2025-06-11 17:29:51 - Session before: Array
+(
+    [admin_logged_in] => 1
+    [admin_username] => Jojo123
+    [admin_id] => 3
+    [admin_name] => Jojo
+)
+
+2025-06-11 17:29:51 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 17:29:51 - Redirecting to login page
