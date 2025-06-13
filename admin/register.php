@@ -15,6 +15,22 @@ if (session_status() === PHP_SESSION_NONE) {
 header('Location: login.php?register=1');
 exit;
 ?>
+
+// Set base path
+define('BASE_PATH', dirname(__DIR__));
+
+// Load database connection dan AdminRepository
+require_once BASE_PATH . '/config/database.php';
+require_once BASE_PATH . '/repositories/AdminRepository.php';
+
+// Load file autentikasi (tanpa redirect loop)
+$loginPage = true; // Tandai ini sebagai halaman login
+require_once 'auth.php';
+
+$error = '';
+$success = '';
+
+// Cek apakah form registrasi disubmit
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';

@@ -78,6 +78,7 @@
 )
 
 2025-06-08 21:47:27 - Redirecting to login page
+<<<<<<< HEAD
 2025-06-11 09:13:34 - Logout started
 2025-06-11 09:13:34 - Session before: Array
 (
@@ -261,3 +262,5 @@
 )
 
 2025-06-11 17:29:51 - Redirecting to login page
+=======
+>>>>>>> 297394eaf5ca214fe5c7a2219f155a5643ece288

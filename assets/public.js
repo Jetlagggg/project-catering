@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // JavaScript untuk website promosi Family 88
+=======
+// JavaScript untuk website promosi Foody
+>>>>>>> 297394eaf5ca214fe5c7a2219f155a5643ece288
 
 document.addEventListener('DOMContentLoaded', function() {
     // Navigasi mobile

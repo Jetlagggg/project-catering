@@ -12,8 +12,7 @@ class OrderController {
     public function __construct($site = 'admin') {
         $this->repo = new OrderRepository();
         $this->clientRepo = new ClientRepository();
-        $this->menuRepo = new MenuRepository();
-        $this->site = $site; // 'admin' atau 'public'
+        $this->menuRepo = new MenuRepository();        $this->site = $site; // 'admin' atau 'public'
     }    public function index() {
         $orders = $this->repo->getAll();
         

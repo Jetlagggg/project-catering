@@ -11,8 +11,7 @@ class MenuController {
     }    public function index() {
         $menus = $this->repo->getAll();
         $page = 'menus';
-        
-        if ($this->site === 'admin') {
+          if ($this->site === 'admin') {
             // Tampilkan halaman admin
             $pageTitle = 'Daftar Menu - Family 88 Catering Admin';
             $contentView = BASE_PATH . '/views/admin/menus/menu_list_content.php';
@@ -48,14 +47,12 @@ class MenuController {
         $menus = $this->repo->getAll();
         
         if ($this->site === 'admin') {
-            // Tampilkan halaman admin
-            $page = 'foods';
+            // Tampilkan halaman admin            $page = 'foods';
             $pageTitle = 'Foods Menu - Family 88 Catering Admin';
             $contentView = BASE_PATH . '/views/admin/menus/menu_list_content.php';
             include BASE_PATH . '/views/admin/template.php';
         } else {
-            // Tampilkan halaman publik
-            $page = 'foods';
+            // Tampilkan halaman publik            $page = 'foods';
             $pageTitle = 'Our Foods - Family 88 Catering';
             $contentView = BASE_PATH . '/views/public/menus/foods.php';
             include BASE_PATH . '/views/public/template.php';

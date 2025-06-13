@@ -26,10 +26,8 @@ $message = '';
 $messageType = '';
 
 // Handle form submissions
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Add new menu item
-    if (isset($_POST['action']) && $_POST['action'] === 'add') {        $menuData = [
-            'name' => $_POST['name'] ?? '',
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {    // Add new menu item
+    if (isset($_POST['action']) && $_POST['action'] === 'add') {$menuData = [            'name' => $_POST['name'] ?? '',
             'description' => $_POST['description'] ?? '',
             'price' => $_POST['price'] ?? 0,
             'category' => $_POST['category'] ?? 'main'

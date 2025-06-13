@@ -2,11 +2,11 @@
 require_once __DIR__ . '/../repositories/InvoiceRepository.php';
 
 class InvoiceController {
-    private $repo;
-
-    public function __construct() {
+    private $repo;    public function __construct() {
         $this->repo = new InvoiceRepository();
-    }public function index() {
+    }
+    
+    public function index() {
         $invoices = $this->repo->getAll();
         $page = 'invoices';
         $pageTitle = 'Daftar Faktur - Family 88 Catering';
@@ -26,8 +26,7 @@ class InvoiceController {
     }    public function edit($id) {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $this->repo->update($id, $_POST);
-            header("Location: index.php?page=invoices");
-        } else {            $invoice = $this->repo->findById($id);
+            header("Location: index.php?page=invoices");        } else {            $invoice = $this->repo->findById($id);
             $page = 'invoices';
             $pageTitle = 'Edit Faktur - Family 88 Catering';
             $contentView = 'views/invoices/invoice_form_content.php';

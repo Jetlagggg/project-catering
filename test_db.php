@@ -63,8 +63,7 @@ try {
             echo "<div style='background-color:#fff3cd; color:#856404; padding:20px; margin:20px; border:1px solid #ffeeba; border-radius:5px;'>";
             echo "<h3>Admin User Missing</h3>";
             echo "<p>Creating default admin user (username: admin, password: admin123)</p>";
-            
-            // Create admin user
+              // Create admin user
             $hashedPassword = password_hash('admin123', PASSWORD_DEFAULT);
             $stmt = $conn->prepare("INSERT INTO admins (username, password, name, email) VALUES (?, ?, ?, ?)");
             $result = $stmt->execute(['admin', $hashedPassword, 'Admin Family 88', 'admin@example.com']);

@@ -44,12 +44,11 @@ class DashboardController {
                 'recentOrders' => $recentOrders,
                 'popularMenus' => $popularMenus
             ];
-            
-            $contentView = BASE_PATH . '/views/admin/dashboard/dashboard.php';
-            include BASE_PATH . '/views/admin/template.php';        } else {
+              $contentView = BASE_PATH . '/views/admin/dashboard/dashboard.php';
+            include BASE_PATH . '/views/admin/template.php';
+        } else {
             // Untuk rute lama (sebelum dipisah)
-            $totalClients = count($this->clientRepo->getAll());
-            $totalInvoices = count($this->invoiceRepo->getAll());
+            $totalClients = count($this->clientRepo->getAll());            $totalInvoices = count($this->invoiceRepo->getAll());
             $unpaidInvoices = count($this->invoiceRepo->getByStatus('unpaid'));
             
             // Load popular menus from database for dashboard

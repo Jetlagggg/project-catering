@@ -4,8 +4,7 @@ require_once __DIR__ . '/../config/database.php';
 class MenuRepository {
     private $db;
 
-    public function __construct() {
-        $database = new Database();
+    public function __construct() {        $database = new Database();
         $this->db = $database->connect();
     }    public function getAll() {
         try {

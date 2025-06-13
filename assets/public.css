@@ -756,6 +756,7 @@ body.public-site {
         grid-template-columns: 1fr;
     }
 }
+<<<<<<< HEAD
 
 
 /* ==========================================
@@ -769,3 +770,5 @@ body.public-site {
     overflow: hidden;
     border-top: 1px solid #333;
 }
+=======
+>>>>>>> 297394eaf5ca214fe5c7a2219f155a5643ece288

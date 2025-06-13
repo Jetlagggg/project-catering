@@ -1,22 +1,22 @@
-🖼️ INSTRUKSI MENAMBAHKAN GAMBAR FAMILY 88 STOREFRONT
+ðŸ–¼ï¸ INSTRUKSI MENAMBAHKAN GAMBAR FAMILY 88 STOREFRONT
 =====================================================
 
-❌ MASALAH: Gambar Family 88 tidak muncul karena file placeholder bukan gambar asli
+âŒ MASALAH: Gambar Family 88 tidak muncul karena file placeholder bukan gambar asli
 
-✅ SOLUSI LENGKAP:
+âœ… SOLUSI LENGKAP:
 
-1. 📥 DOWNLOAD GAMBAR
+1. ðŸ“¥ DOWNLOAD GAMBAR
    - Klik kanan pada gambar Family 88 storefront yang Anda kirim
    - Pilih "Save image as..." atau "Simpan gambar sebagai..."
    - Simpan dengan nama: family88-storefront.jpg
 
-2. 📁 COPY KE FOLDER YANG TEPAT
+2. ðŸ“ COPY KE FOLDER YANG TEPAT
    - Buka File Explorer
    - Navigate ke: c:\xampp\htdocs\TubesYos\assets\img\
    - Copy file family88-storefront.jpg ke folder ini
    - Pastikan nama file PERSIS: family88-storefront.jpg
 
-3. 🔄 GANTI CODE (OPSIONAL - UNTUK GAMBAR ASLI)
+3. ðŸ”„ GANTI CODE (OPSIONAL - UNTUK GAMBAR ASLI)
    Jika ingin menggunakan gambar asli, ganti code di about.php:
    
    GANTI:
@@ -25,17 +25,17 @@
    DENGAN:
    <img src="/TubesYos/assets/img/family88-storefront.jpg" alt="Family 88 Restaurant Storefront" class="family88-storefront">
 
-4. 🌐 REFRESH BROWSER
+4. ðŸŒ REFRESH BROWSER
    - Buka halaman About Us
    - Tekan Ctrl+F5 untuk hard refresh
    - Gambar Family 88 akan muncul
 
-🎯 SAAT INI:
+ðŸŽ¯ SAAT INI:
 - Placeholder dengan styling Family 88 sudah aktif
 - Design sudah siap untuk gambar asli
 - Responsive dan modern
 
-🔧 JIKA MASIH BERMASALAH:
+ðŸ”§ JIKA MASIH BERMASALAH:
 - Cek nama file harus PERSIS: family88-storefront.jpg
 - Cek lokasi file di: c:\xampp\htdocs\TubesYos\assets\img\
 - Pastikan file adalah gambar JPG/PNG, bukan file teks

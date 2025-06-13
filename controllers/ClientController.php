@@ -2,11 +2,11 @@
 require_once __DIR__ . '/../repositories/ClientRepository.php';
 
 class ClientController {
-    private $repo;
-
-    public function __construct() {
+    private $repo;    public function __construct() {
         $this->repo = new ClientRepository();
-    }public function index() {
+    }
+    
+    public function index() {
         $clients = $this->repo->getAll();
         $page = 'clients';
         $pageTitle = 'Daftar Klien - Family 88 Catering';
@@ -22,8 +22,7 @@ class ClientController {
                 'phone' => $_POST['phone']
             ];
             $this->repo->create($data);
-            header('Location: index.php?page=clients');
-        } else {            $page = 'clients';
+            header('Location: index.php?page=clients');        } else {            $page = 'clients';
             $pageTitle = 'Tambah Klien - Family 88 Catering';
             $contentView = 'views/clients/client_create_content.php';
             include 'views/template_new.php';
