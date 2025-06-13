@@ -17,7 +17,12 @@ class OrderRepository {
         return self::$instance;
     }    public function getAll() {
         try {
-            $stmt = $this->db->query("SELECT * FROM orders");
+            $sql = "SELECT o.*, c.name as client_name, m.name as menu_name, m.price 
+                    FROM orders o 
+                    LEFT JOIN clients c ON o.client_id = c.id 
+                    LEFT JOIN menus m ON o.menu_id = m.id 
+                    ORDER BY o.order_date DESC";
+            $stmt = $this->db->query($sql);
             $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
             return is_array($result) ? $result : [];
         } catch (Exception $e) {

@@ -165,9 +165,8 @@ include_once 'views/header.php';
                                     <a href="menu_management.php" class="btn btn-warning btn-block">
                                         <i class="fas fa-utensils mr-2"></i> Kelola Menu
                                     </a>
-                                </div>
-                <div class="col-md-6 mb-3">
-                    <a href="#" class="btn btn-info btn-block">
+                                </div>                <div class="col-md-6 mb-3">
+                    <a href="order_management.php" class="btn btn-info btn-block">
                         <i class="fas fa-shopping-cart mr-2"></i> Pesanan
                     </a>
                 </div>

@@ -19,10 +19,21 @@ class OrderController {
         // Ensure orders is an array
         if (!is_array($orders)) $orders = [];
         
-        $page = 'orders';
-        $pageTitle = 'Daftar Pesanan - Family 88 Catering';
-        $contentView = 'views/orders/order_list_content.php';
-        include 'views/template_new.php';    }
+        // Periksa apakah request berasal dari admin
+        if (defined('ADMIN_PATH')) {
+            // Admin template
+            $pageTitle = 'Daftar Pesanan - Family 88 Catering Admin';
+            include_once ADMIN_PATH . '/views/header.php';
+            include BASE_PATH . '/views/orders/order_list_content.php';
+            include_once ADMIN_PATH . '/views/footer.php';
+        } else {
+            // Default template
+            $page = 'orders';
+            $pageTitle = 'Daftar Pesanan - Family 88 Catering';
+            $contentView = BASE_PATH . '/views/orders/order_list_content.php';
+            include BASE_PATH . '/views/template_new.php';
+        }
+    }
     
     public function create() {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
