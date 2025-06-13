@@ -14,7 +14,6 @@ if (session_status() === PHP_SESSION_NONE) {
 // Redirect to login page with register flag
 header('Location: login.php?register=1');
 exit;
-?>
 
 // Set base path
 define('BASE_PATH', dirname(__DIR__));

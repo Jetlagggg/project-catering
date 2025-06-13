@@ -98,7 +98,7 @@
             <div class="testimonial-author">
                 <div class="author-avatar">BS</div>
                 <div class="author-info">
-                    <h4>Budi Santoso</h4>
+                    <h4>Icang</h4>
                     <p>Acara Perusahaan</p>
                 </div>
             </div>
@@ -115,7 +115,7 @@
             <div class="testimonial-author">
                 <div class="author-avatar">DA</div>
                 <div class="author-info">
-                    <h4>Dian Anggraini</h4>
+                    <h4>Maudy Azzahra Nurul Qolbi</h4>
                     <p>Resepsi Pernikahan</p>
                 </div>
             </div>
@@ -132,7 +132,7 @@
             <div class="testimonial-author">
                 <div class="author-avatar">RP</div>
                 <div class="author-info">
-                    <h4>Rudi Pratama</h4>
+                    <h4>Yoshua Pandawinatha</h4>
                     <p>Kumpul Keluarga</p>
                 </div>
             </div>

@@ -264,3 +264,41 @@
 2025-06-11 17:29:51 - Redirecting to login page
 =======
 >>>>>>> 297394eaf5ca214fe5c7a2219f155a5643ece288
+2025-06-11 22:48:58 - Logout started
+2025-06-11 22:48:58 - Session before: Array
+(
+    [cart] => Array
+        (
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-11 22:48:58 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-11 22:48:58 - Redirecting to login page
+2025-06-12 03:21:35 - Logout started
+2025-06-12 03:21:35 - Session before: Array
+(
+    [cart] => Array
+        (
+        )
+
+    [admin_logged_in] => 1
+    [admin_username] => yoshua
+    [admin_id] => 2
+    [admin_name] => yoshua12
+)
+
+2025-06-12 03:21:35 - Session after: Array
+(
+    [logout_success] => Anda berhasil logout.
+)
+
+2025-06-12 03:21:35 - Redirecting to login page

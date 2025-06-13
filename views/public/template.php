@@ -96,18 +96,18 @@
             
             <div class="footer-contact">
                 <h3>Hubungi Kami</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Jl. Makanan 123, Kota Lezat</p>
-                <p><i class="fas fa-phone"></i> +123 456 7890</p>
-                <p><i class="fas fa-envelope"></i> info@family88.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Jl.Yoshua Ganteng, Kampung Dempar, Kabupaten Kutai Barat</p>
+                <p><i class="fas fa-phone"></i> 0821-5382-5480</p>
+                <p><i class="fas fa-envelope"></i> family88@gmail.com</p>
             </div>
             
             <div class="footer-social">
                 <h3>Ikuti Kami</h3>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/pandawinatha.s/"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://wa.me/message/RPGUIFPXTIKNK1"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
                     <i class="fas fa-store"></i>
                     <h3>Family 88</h3>
                     <p>Premium Catering Service</p>
-                    <small>Gambar akan ditampilkan setelah upload</small>
+                    <small>Sejak 2010</small>
                 </div>
             </div>
             <div class="image-overlay">
@@ -71,9 +71,9 @@
         <div class="feature-container">
             <div class="feature-box">
                 <div class="feature-icon">
-                    <i class="fas fa-user-chef"></i>
+                     <i class="fa-thin fa-user-chef"></i>
                 </div>
-                <h3>Chef Bambang</h3>
+                <h3> Dami Vilaya</h3>
                 <p>Kepala Chef dengan pengalaman lebih dari 15 tahun di bidang kuliner.</p>
             </div>
             
@@ -81,7 +81,7 @@
                 <div class="feature-icon">
                     <i class="fas fa-user-tie"></i>
                 </div>
-                <h3>Sari Wijaya</h3>
+                <h3>Yoshua Pandawinatha</h3>
                 <p>Manajer Acara yang berspesialisasi dalam mengoordinasi acara berskala besar.</p>
             </div>
             
@@ -89,7 +89,8 @@
                 <div class="feature-icon">
                     <i class="fas fa-user-graduate"></i>
                 </div>
-                <h3>Dimas Aryo</h3>                <p>Perancang Menu dengan keahlian dalam membuat menu khusus untuk berbagai acara.</p>
+                <h3>Lidia Krisnalita</h3>               
+                 <p>Perancang Menu dengan keahlian dalam membuat menu khusus untuk berbagai acara.</p>
             </div>
         </div>
     </div>
